@@ -1,0 +1,109 @@
+/* CONTAINER */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  overflow: auto;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+/* DISPLAYS */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* TEXT STYTLES */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+.l-heading {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 1.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: var(--dark-color);
+}
+
+.btn-light:hover {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+}
+
+.btn-dark {
+  background-color: var(--dark-color);
+}
+
+.btn-dark:hover {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+}
+
+/* BACKGROUNDS */
+.bg-primary {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: var(--dark-color);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+/* PADDINGS */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}

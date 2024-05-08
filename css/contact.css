@@ -1,0 +1,45 @@
+/* CONTACT FORM */
+.contact-form .form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid #ddd;
+}
+
+.form-group textarea {
+  height: 20rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* CONTACT INFO */
+.contact-info .container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contact-info .container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+}
+
+.contact-info .container .box i {
+  margin-bottom: 1rem;
+}
